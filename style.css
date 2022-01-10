@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('images/cover.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+nav{
+   display: flex;
+   padding: 2% 6%;
+   align-items: center;
+   justify-content: space-between;
+}
+.brand li{
+    list-style: none;
+    margin-top: -5px !important;
+}
+
+.brand li h2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Moon Dance', 'cursive';
+}
+.brand li h2 a:hover{
+    color:#ffc107;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 8px;
+    position:relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+.nav-links ul li a:hover{
+    color: #ffc107;
+}
+.lower-container{
+    padding-top: 9% !important;
+    padding-left: 4% !important;
+    padding-right: 2% !important;
+}
+.text-image{
+    font-family:'Nunito', sans-serif; 
+    font-weight: bolder; 
+}
+.text{
+    font-family: 'cursive';
+    font-size: large;
+}
+.buttons{
+    padding-left: 2.5%;
+}
+.welcome-conatiner{
+    padding-left: 7% !important;
+}
+.welcome-text{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    font-size:700;
+}
+.welcome-img{
+    height: 200px;
+    width: 200px;
+}
+/* .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+} */
+.text-information{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hover-effect:hover{
+    background-color: #ffc107;
+}
+
+.btn-hover{
+    font-weight: bold;
+    font-family: 'Nunito';
+    
+}
+
+.btn-hover:hover{
+    background-color: #0d6efd;
+    color: black;
+    border: 1px solid #0d6efd;
+}
+
+.pricing-text{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size:500;
+}
+.vedio-container{
+    margin-top: 4%;
+    background-color: #0d6efd;
+    height: 400px;
+}
+
+.pricing-text{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size:500;
+    color: white;
+}
+.team-text{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size:500;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.zippy-container{
+    height: 700px;
+    background-color: rgb(96, 116, 134);
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-left: -20rem;
+    margin-right: 16rem;
+    margin-top: -40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px 0px 250px;
+    position: absolute;
+    font-weight: bolder;
+    top: 0;
+  }
+  
+.highlight-img{
+    width: 500px;
+    height: 380px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+.newsletter-bg{
+  background-image: url(/images/newsletter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+.signup-text{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size:500;
+    flood-color: #ffc107;
+}
